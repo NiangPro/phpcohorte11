@@ -1,6 +1,6 @@
 <?php 
 
-$note = 19;
+$note = -3;
 
 if ($note >=0 && $note <10) {
     echo "echec";
@@ -13,5 +13,9 @@ if ($note >=0 && $note <10) {
 }elseif($note >= 19 && $note <= 20){
     echo "Tres bien";
 }else{
-    echo "La note doit etre comprise entre 0 et 20";
+    if ($note < 0) {
+        echo "La note doit etre superieur ou egal a 0";
+    }else{
+        echo "La note doit etre inferieur ou egal a 20";
+    }
 }
