@@ -5,6 +5,10 @@ function direBonjour(){
     echo "Bonjour tout le monde<br>";
 }
 
+function salutation($valeur){
+    echo "Salut $valeur<br>";
+}
+
 function direBonjourA($prenom, $sexe){
     // $s = strtolower($sexe) == "m" ? "Mr" : "Mme";
 
@@ -31,7 +35,7 @@ function somme($a, $b){
 
 function sommeB($a , $b){
     
-    echo "<br>$a + $b =".($a+$b);
+    // echo "<br>$a + $b =".($a+$b);
     return $a+$b;
 }
 
@@ -47,9 +51,26 @@ function sommes(...$args){
     echo "La somme est : ".$som." <br>";
 }
 
+function sommeUniverselle(...$valeurs){
+    // echo "La somme est de ".array_sum($valeurs);
+    $som = 0;
+    foreach($valeurs as $val){
+        $som = $som + $val;
+    }
 
+    echo "La somme est de $som";
+}
 
+$valeur = "Bassirou";
+
+sommeUniverselle(34, 5, 9, 2);
+echo strlen($valeur);
 direBonjour();
+salutation($valeur);
+salutation("Modou");
+salutation("Fatou");
+sommeB(5, 5);
+somme(4, 10, 78);
 direBonjourA("Aminata", "F");
 // die("Fin de l'execution");
 direBonjourA("Alioune", "m");
