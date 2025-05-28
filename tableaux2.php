@@ -10,7 +10,11 @@ foreach($tableau as $cle => $val){
     echo " $cle => $val";
 }
 
-$tabassoc = ["prenom" =>"moussa", "nom" => "diop", "age" => 25];
+$tabassoc = [
+    "prenom" =>"moussa",
+     "nom" => "diop",
+      "age" => 25
+    ];
 
 echo "<br>".$tabassoc['prenom'];
 

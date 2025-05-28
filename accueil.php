@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+</head>
+<body>
+   <?php require_once("navbar.php"); ?>
+
+    <div class="container" style="margin-top: 70px;">
+        <h1>Page d'accueil</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minima eaque blanditiis, id earum, totam veritatis quia sed quam odit distinctio velit illum beatae doloremque fugit dolorem enim excepturi vero laborum error. Dolore ad, eum fugit totam, aperiam hic animi fugiat ipsum cupiditate illo nisi! Modi labore natus porro laborum sunt soluta culpa ad non exercitationem esse cumque quibusdam temporibus ea vero a odit quos, totam praesentium dolore perferendis quae. Vel omnis a, magnam, debitis, mollitia in nihil explicabo cupiditate numquam ducimus rerum iusto? Illum blanditiis nobis architecto quis officia fugiat deleniti alias vitae velit. Possimus ipsam, quam sapiente, aspernatur, voluptatibus autem fugiat veniam voluptatum necessitatibus rem quo voluptates minima nisi! Delectus dolorem perspiciatis officiis porro quidem unde doloribus impedit, nisi nihil hic ullam illo ipsam esse at! Necessitatibus nulla et quo illo repudiandae repellendus non error suscipit sed obcaecati numquam in, odit quam impedit, delectus aspernatur blanditiis, ab reprehenderit eum? Aut aspernatur labore numquam aliquam a reiciendis! Maxime, repudiandae error? Repellat debitis laudantium quod ab? Explicabo, laboriosam minus atque fugit esse vero pariatur fuga aperiam odio vitae saepe distinctio, vel commodi iure consectetur repudiandae, ipsam quo? Vitae animi hic excepturi rerum ad tempora. Nihil maiores animi incidunt, asperiores rerum mollitia excepturi recusandae illum perspiciatis quod tempore delectus. Doloremque, reprehenderit esse reiciendis officia fugiat ullam laboriosam quod eaque possimus, repellendus molestias inventore soluta, ex fuga aspernatur consequuntur. Illo vero ad nisi rerum molestiae ut dolore, veritatis ratione, commodi doloremque beatae facere praesentium nam maiores recusandae eveniet fugit consequuntur aliquam ipsa repudiandae in, accusamus voluptatibus? Dicta ducimus perferendis ullam asperiores, aliquid porro nemo voluptatem unde laboriosam explicabo tenetur laborum recusandae, eius nostrum ea mollitia. Porro totam iusto enim, animi beatae numquam sequi eveniet neque corrupti natus nobis nesciunt magnam, hic deleniti? Dolor a, vel molestias atque corrupti error. Magnam deserunt saepe ea quos, voluptatum repudiandae molestiae blanditiis commodi tempora ratione! Mollitia aspernatur quo nobis dolore? Quibusdam excepturi aspernatur officia odit est, tempore aliquid neque beatae doloremque pariatur consequatur voluptate rerum blanditiis at autem alias maiores! Amet, sed animi voluptatibus soluta culpa eius molestias nam consectetur ad, dolorum eos repellendus excepturi ipsum earum rem quas maiores blanditiis deserunt? Officia quas error distinctio corporis dicta at delectus. Ex aut voluptates accusamus totam. Porro quidem maxime minima alias quisquam adipisci tempore dolorem eaque tenetur officia nesciunt, nisi soluta qui, voluptate voluptatum ipsam nostrum facilis neque fugiat deserunt? Fugit quidem obcaecati repellendus repudiandae sint asperiores optio exercitationem, voluptatibus possimus itaque aliquam perferendis consectetur reprehenderit vitae quisquam nostrum. Sequi harum, ad maxime eius dolor ea vitae aliquam assumenda officia eos non voluptates accusamus facilis adipisci dolore distinctio! Unde omnis numquam beatae distinctio, quam minima officia? Perferendis ullam nemo omnis sit sed dolore incidunt minima reprehenderit quaerat commodi! Dicta, temporibus deserunt in numquam pariatur, iste eos ad ab ratione, qui repellat aspernatur vero maiores architecto culpa reiciendis hic nesciunt sint. Quos aliquid autem praesentium officiis, quia veritatis 
+            obcaecati minus? Perspiciatis qui praesentium necessitatibus cum optio dignissimos voluptate enim laudantium. Expedita quos, dolorum aspernatur alias esse quibusdam vel!
+        </p>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
