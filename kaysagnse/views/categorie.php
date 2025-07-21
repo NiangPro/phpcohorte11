@@ -18,14 +18,17 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <?php foreach($categories as $c): ?>
                         <tr>
-                            <td>image</td>
-                            <td>Banane</td>
                             <td>
-                                <a href="" class="btn btn-warning"><i class="fa fa-edit"></i></a>
-                                <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-trash"></i></a>
+                                <img src="images/<?= $c['image'] ?>" width="200" height="75" alt="">
+                            </td>
+                            <td><?= $c["nom"] ?></td>
+                            <td>
+                                <a href="?page=categorie&type=edit&id=<?= $c['id'] ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
+                                <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal<?= $c['id'] ?>"><i class="fa fa-trash"></i></a>
                                 <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="exampleModal<?= $c['id'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                     <div class="modal-header">
@@ -37,13 +40,14 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-success" data-bs-dismiss="modal">Non</button>
-                                        <button type="button" class="btn btn-danger">Oui</button>
+                                        <a href="?page=categorie&iddeleting=<?= $c['id'] ?>" class="btn btn-danger">Oui</a>
                                     </div>
                                     </div>
                                 </div>
                                 </div>
                             </td>
                         </tr>
+                        <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>

@@ -1,0 +1,8 @@
+.custom{
+    box-shadow: 1px 1px 1px #000;
+    margin: 50px 0px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 1px 1px 1px rgb(127, 4, 24);
+    letter-spacing: 5px;
+    font-style: italic;
+}

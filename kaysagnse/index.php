@@ -1,6 +1,7 @@
 <?php 
 
 
+require_once("models/database.php");
 require_once("views/includes/navbar.php");
 
 // routeur
@@ -21,3 +22,5 @@ if (isset($_GET["page"])) {
 }
 
 require_once("views/includes/footer.php");
+
+

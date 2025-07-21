@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <form action="" method="post">
+                <form action="" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="">Nom</label>
@@ -25,8 +25,11 @@
                         </div>
                          <div class="form-group col-md-6 mt-3">
                             <label for="">Categorie</label>
-                            <select name="categorie_id" id="" class="form-control">
+                            <select name="idcategorie" id="" class="form-control">
                                 <option value="">Veuillez selectionner</option>
+                                <?php foreach($categories as $c): ?>
+                                    <option value="<?= $c['id'] ?>"><?= $c["nom"] ?></option>
+                                <?php endforeach; ?>
                             </select>
                         </div>
                          <div class="form-group col-md-12 mt-3">
@@ -39,7 +42,7 @@
                         </div>
                     </div>
                     
-                    <button type="submit" class="btn btn-outline-success mt-3">Ajouter</button>
+                    <button type="submit" name="ajouter" class="btn btn-outline-success mt-3">Ajouter</button>
                 </form>
             </div>
         </div>
